@@ -13,7 +13,7 @@ let ref = useMount({ onMount, onUnmount });
 */
 ```
 
-## Code example
+## Usage example
 
 ```jsx
 import useMount from '@kunukn/useMount';
@@ -36,3 +36,7 @@ let App = () => {
   );
 };
 ```
+
+## Demo
+
+https://codesandbox.io/s/gifted-murdock-m3rzk
