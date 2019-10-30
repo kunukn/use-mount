@@ -1,6 +1,6 @@
 {
-  "name": "use-mount",
-  "version": "0.1.0",
+  "name": "@kunukn/use-mount",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Kunuk Nykjær",
   "main": "dist/index.js",
