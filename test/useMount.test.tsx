@@ -12,7 +12,7 @@ let App = () => {
   let ref = mountHook({ onMount, onUnMount });
 
   return (
-    <div ref={ref}>
+    <div>
       <button onClick={() => setToggle(s => !s)}>Toggle</button>
       {isActive && <div ref={ref}>Hello</div>}
     </div>
