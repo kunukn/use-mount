@@ -6,8 +6,8 @@ let mountHook = useMount.default || useMount;
 let App = () => {
   let [isActive, setToggle] = React.useState(true);
 
-  let onMount = node => console.log('onMount', node);
-  let onUnMount = node => console.log('onUnMount', node);
+  let onMount = node => console.log('onMount', typeof node);
+  let onUnMount = node => console.log('onUnMount', typeof node);
 
   let ref = mountHook({ onMount, onUnMount });
 
