@@ -16,7 +16,7 @@ let ref = useMount({ onMount, onUnmount });
 ## Usage example
 
 ```jsx
-import useMount from '@kunukn/useMount';
+import useMount from '@kunukn/use-mount';
 
 let MyComponent = ({ children }) => {
   let onMount = node => console.log('I mounted with this node:', node);
