@@ -15,7 +15,7 @@ function useMount({ onMount = null, onUnmount = null } = {}) {
 
   React.useEffect(() => {
     return () => {
-      ref.current && onUnmount && onUnmount(ref.current);
+      onUnmount && onUnmount(ref.current);
     };
   }, [onUnmount]);
 
