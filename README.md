@@ -20,7 +20,7 @@ import useMount from '@kunukn/use-mount';
 
 let MyComponent = ({ children }) => {
   let onMount = node => console.log('I mounted with this node:', node);
-  let onUnmount = node => console.log('I unmounted with this  node:', node);
+  let onUnmount = node => console.log('I unmounted with this node:', node);
   let ref = useMount({ onMount, onUnmount });
   return <div ref={ref}>{children}</div>;
 };
